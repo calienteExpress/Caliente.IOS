@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CalienteExpress.IOS.Model
 {
-    public class Order
+    class Menu
     {
     }
 }

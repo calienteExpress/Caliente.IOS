@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CalienteExpress.IOS.Model
+namespace CalienteExpress.IOS.Views
 {
-    public class Order
+    class MenuRow
     {
     }
 }

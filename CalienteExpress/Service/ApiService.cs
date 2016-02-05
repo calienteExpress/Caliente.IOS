@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CalienteExpress.IOS.Model
+namespace CalienteExpress.IOS.Service
 {
-    public class Order
+    public static class ApiService
     {
     }
 }

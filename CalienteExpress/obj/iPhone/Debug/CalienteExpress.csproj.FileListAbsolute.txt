@@ -1,0 +1,7 @@
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\bin\iPhone\Debug\CalienteExpress.IOS.exe
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\bin\iPhone\Debug\CalienteExpress.IOS.pdb
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\obj\iPhone\Debug\optimized\
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\obj\iPhone\Debug\CalienteExpress.IOS.exe
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\obj\iPhone\Debug\CalienteExpress.IOS.pdb
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\obj\iPhone\Debug\CalienteExpress.IOS.exe.mdb
+D:\Clients\CafeCaliente\Caliente.IOS\CalienteExpress\bin\iPhone\Debug\CalienteExpress.IOS.exe.mdb

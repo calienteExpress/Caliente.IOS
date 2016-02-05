@@ -6,9 +6,9 @@
     <ProjectGuid>{7502C86F-5E47-4606-A512-EC3AEB688AE0}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CalienteExpress</RootNamespace>
+    <RootNamespace>CalienteExpress.IOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>CalienteExpress</AssemblyName>
+    <AssemblyName>CalienteExpress.IOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -86,14 +86,27 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Service\ApiService.cs" />
+    <Compile Include="ViewControllers\DeliveryDetailsViewController.cs" />
+    <Compile Include="ViewControllers\DeliveryTypeViewController.cs" />
+    <Compile Include="ViewControllers\MenuViewController.cs" />
+    <Compile Include="ViewControllers\OrderConfirmationViewController.cs" />
+    <Compile Include="ViewControllers\PickupDetailsViewController.cs" />
+    <Compile Include="ViewControllers\ViewControllerBase.cs" />
+    <Compile Include="Views\AppButton.cs" />
+    <Compile Include="Views\MenuRow.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
+    <Compile Include="Model\Menu.cs" />
+    <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\OrderItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Service\" />
+    <Folder Include="Model\Requests\" />
+    <Folder Include="Model\Responses\" />
+    <Folder Include="Utilities\" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
