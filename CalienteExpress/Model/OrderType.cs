@@ -4,7 +4,9 @@ using System.Text;
 
 namespace CalienteExpress.IOS.Model
 {
-    class Menu
+    public enum OrderType
     {
+        Pickup,
+        Delivery
     }
 }

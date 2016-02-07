@@ -109,6 +109,13 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Model\MenuItemOption.cs" />
+    <Compile Include="Model\OrderStatus.cs" />
+    <Compile Include="Model\OrderType.cs" />
+    <Compile Include="Model\Requests\CreateOrderRequest.cs" />
+    <Compile Include="Model\Responses\MenuResponse.cs" />
+    <Compile Include="Model\Responses\OrderResponse.cs" />
+    <Compile Include="Model\Responses\ResponseBase.cs" />
     <Compile Include="Service\ApiService.cs" />
     <Compile Include="ViewControllers\DeliveryDetailsViewController.cs" />
     <Compile Include="ViewControllers\DeliveryTypeViewController.cs" />
@@ -120,7 +127,6 @@
     <Compile Include="Views\MenuRow.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
-    <Compile Include="Model\Menu.cs" />
     <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\OrderItem.cs" />
@@ -128,8 +134,6 @@
     <InterfaceDefinition Include="Storyboards\Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\Requests\" />
-    <Folder Include="Model\Responses\" />
     <Folder Include="Utilities\" />
   </ItemGroup>
   <ItemGroup>
