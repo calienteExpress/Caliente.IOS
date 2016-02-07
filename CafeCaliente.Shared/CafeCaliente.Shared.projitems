@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e119136b-5feb-4fa7-8165-69845ece96be</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CafeCaliente.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\MenuController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\MenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\MenuItemOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Order.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\OrderItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\OrderStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\OrderType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Requests\CreateOrderRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Requests\RequestBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Responses\MenuResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Responses\OrderResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Responses\ResponseBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\ApiService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ButtonView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Utilities\" />
+  </ItemGroup>
+</Project>

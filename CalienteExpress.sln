@@ -5,7 +5,13 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalienteExpress", "CalienteExpress\CalienteExpress.csproj", "{7502C86F-5E47-4606-A512-EC3AEB688AE0}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CafeCaliente.Shared", "CafeCaliente.Shared\CafeCaliente.Shared.shproj", "{E119136B-5FEB-4FA7-8165-69845ECE96BE}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CafeCaliente.Shared\CafeCaliente.Shared.projitems*{7502c86f-5e47-4606-a512-ec3aeb688ae0}*SharedItemsImports = 4
+		CafeCaliente.Shared\CafeCaliente.Shared.projitems*{e119136b-5feb-4fa7-8165-69845ece96be}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
 		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator

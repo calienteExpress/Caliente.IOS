@@ -107,18 +107,8 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Shared\Controllers\MenuController.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Shared\Model\MenuItemOption.cs" />
-    <Compile Include="Shared\Model\OrderStatus.cs" />
-    <Compile Include="Shared\Model\OrderType.cs" />
-    <Compile Include="Shared\Model\Requests\CreateOrderRequest.cs" />
-    <Compile Include="Shared\Model\Requests\RequestBase.cs" />
-    <Compile Include="Shared\Model\Responses\MenuResponse.cs" />
-    <Compile Include="Shared\Model\Responses\OrderResponse.cs" />
-    <Compile Include="Shared\Model\Responses\ResponseBase.cs" />
-    <Compile Include="Shared\Service\ApiService.cs" />
     <Compile Include="ViewControllers\DeliveryDetails\DeliveryDetailsViewController.cs" />
     <Compile Include="ViewControllers\DeliveryTypeViewController.cs" />
     <Compile Include="ViewControllers\Menu\MenuTableViewController.cs" />
@@ -126,21 +116,14 @@
     <Compile Include="ViewControllers\OrderConfirmation\OrderConfirmationViewController.cs" />
     <Compile Include="ViewControllers\PickupDetails\PickupDetailsViewController.cs" />
     <Compile Include="ViewControllers\ViewControllerBase.cs" />
-    <Compile Include="Shared\Views\ButtonView.cs" />
-    <Compile Include="Shared\Views\MenuView.cs" />
     <Compile Include="Widgets\AppButton.cs" />
     <Compile Include="Widgets\MenuRow.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
-    <Compile Include="Shared\Model\MenuItem.cs" />
-    <Compile Include="Shared\Model\Order.cs" />
-    <Compile Include="Shared\Model\OrderItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <InterfaceDefinition Include="Storyboards\Main.storyboard" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Shared\Utilities\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <XamarinComponentReference Include="modernhttpclient">
       <Visible>False</Visible>
@@ -166,5 +149,6 @@
   <ItemGroup>
     <Content Include="Entitlements.plist" />
   </ItemGroup>
+  <Import Project="..\CafeCaliente.Shared\CafeCaliente.Shared.projitems" Label="Shared" Condition="Exists('..\CafeCaliente.Shared\CafeCaliente.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
