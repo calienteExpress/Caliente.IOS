@@ -133,8 +133,22 @@
     <Folder Include="Utilities\" />
   </ItemGroup>
   <ItemGroup>
+    <XamarinComponentReference Include="modernhttpclient">
+      <Visible>False</Visible>
+      <Version>2.4.2</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="servicestacktext">
+      <Visible>False</Visible>
+      <Version>3.9.61.3</Version>
+    </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="ModernHttpClient">
+      <HintPath>..\Components\modernhttpclient-2.4.2\lib\ios-unified\ModernHttpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text.XamarinIOS">
+      <HintPath>..\Components\servicestacktext-3.9.61.3\lib\ios-unified\ServiceStack.Text.XamarinIOS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
