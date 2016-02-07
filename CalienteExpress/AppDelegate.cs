@@ -32,6 +32,8 @@ namespace CalienteExpress.IOS
             // window.RootViewController  = navigationController;
 
             // make the window visible
+
+            window.RootViewController = new CalienteExpress.IOS.ViewControllers.MenuViewController(); 
             window.MakeKeyAndVisible();
 
             return true;
