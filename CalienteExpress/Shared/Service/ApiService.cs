@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
 
-using CalienteExpress.IOS.Model;
-using CalienteExpress.IOS.Model.Requests;
-using CalienteExpress.IOS.Model.Responses;
+using CalienteExpress.Shared.Model;
+using CalienteExpress.Shared.Model.Requests;
+using CalienteExpress.Shared.Model.Responses;
 
 using ModernHttpClient;
 
-namespace CalienteExpress.IOS.Service
+namespace CalienteExpress.Shared.Service
 {
     public static class ApiService
     {

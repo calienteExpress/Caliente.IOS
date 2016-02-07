@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CalienteExpress.IOS.Model.Requests
+namespace CalienteExpress.Shared.Model.Requests
 {
     public class CreateOrderRequest
     {

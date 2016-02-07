@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CalienteExpress.IOS.Model.Responses
+namespace CalienteExpress.Shared.Model.Responses
 {
     public abstract class ResponseBase
     {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CalienteExpress.IOS.Model
+namespace CalienteExpress.Shared.Model
 {
     public enum OrderType
     {

@@ -107,34 +107,38 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Shared\Controllers\MenuController.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Model\MenuItemOption.cs" />
-    <Compile Include="Model\OrderStatus.cs" />
-    <Compile Include="Model\OrderType.cs" />
-    <Compile Include="Model\Requests\CreateOrderRequest.cs" />
-    <Compile Include="Model\Responses\MenuResponse.cs" />
-    <Compile Include="Model\Responses\OrderResponse.cs" />
-    <Compile Include="Model\Responses\ResponseBase.cs" />
-    <Compile Include="Service\ApiService.cs" />
-    <Compile Include="ViewControllers\DeliveryDetailsViewController.cs" />
+    <Compile Include="Shared\Model\MenuItemOption.cs" />
+    <Compile Include="Shared\Model\OrderStatus.cs" />
+    <Compile Include="Shared\Model\OrderType.cs" />
+    <Compile Include="Shared\Model\Requests\CreateOrderRequest.cs" />
+    <Compile Include="Shared\Model\Responses\MenuResponse.cs" />
+    <Compile Include="Shared\Model\Responses\OrderResponse.cs" />
+    <Compile Include="Shared\Model\Responses\ResponseBase.cs" />
+    <Compile Include="Shared\Service\ApiService.cs" />
+    <Compile Include="ViewControllers\DeliveryDetails\DeliveryDetailsViewController.cs" />
     <Compile Include="ViewControllers\DeliveryTypeViewController.cs" />
-    <Compile Include="ViewControllers\MenuViewController.cs" />
-    <Compile Include="ViewControllers\OrderConfirmationViewController.cs" />
-    <Compile Include="ViewControllers\PickupDetailsViewController.cs" />
+    <Compile Include="ViewControllers\Menu\MenuTableViewController.cs" />
+    <Compile Include="ViewControllers\Menu\MenuViewController.cs" />
+    <Compile Include="ViewControllers\OrderConfirmation\OrderConfirmationViewController.cs" />
+    <Compile Include="ViewControllers\PickupDetails\PickupDetailsViewController.cs" />
     <Compile Include="ViewControllers\ViewControllerBase.cs" />
-    <Compile Include="Views\AppButton.cs" />
-    <Compile Include="Views\MenuRow.cs" />
+    <Compile Include="Shared\Views\ButtonView.cs" />
+    <Compile Include="Shared\Views\MenuView.cs" />
+    <Compile Include="Widgets\AppButton.cs" />
+    <Compile Include="Widgets\MenuRow.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
-    <Compile Include="Model\MenuItem.cs" />
-    <Compile Include="Model\Order.cs" />
-    <Compile Include="Model\OrderItem.cs" />
+    <Compile Include="Shared\Model\MenuItem.cs" />
+    <Compile Include="Shared\Model\Order.cs" />
+    <Compile Include="Shared\Model\OrderItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <InterfaceDefinition Include="Storyboards\Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Utilities\" />
+    <Folder Include="Shared\Utilities\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="modernhttpclient">
