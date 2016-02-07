@@ -17,5 +17,10 @@ namespace CalienteExpress.Shared.Model
         public float TotalPrice { get; set; }
 
         public List<OrderItem> Items { get; set; }
+
+        public Order()
+        {
+            this.Items = new List<OrderItem>(); 
+        }
     }
 }

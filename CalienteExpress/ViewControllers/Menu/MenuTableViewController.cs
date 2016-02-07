@@ -19,9 +19,12 @@ namespace CalienteExpress.IOS.ViewControllers.Menu
         {
             this.controller = controller;
             TableView.RegisterClassForCellReuse(typeof(MenuTableViewCell), new NSString(MenuTableViewCell.Key));
-            this.TableView.Source = new MenuTableViewSource(controller);
         }
 
+        public void ReloadTable()
+        {
+            this.TableView.Source = new MenuTableViewSource(controller);
+        }
 
 
         private class MenuTableViewSource : UITableViewSource

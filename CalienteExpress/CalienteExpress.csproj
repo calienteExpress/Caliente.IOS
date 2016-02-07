@@ -114,6 +114,7 @@
     <Compile Include="Shared\Model\OrderStatus.cs" />
     <Compile Include="Shared\Model\OrderType.cs" />
     <Compile Include="Shared\Model\Requests\CreateOrderRequest.cs" />
+    <Compile Include="Shared\Model\Requests\RequestBase.cs" />
     <Compile Include="Shared\Model\Responses\MenuResponse.cs" />
     <Compile Include="Shared\Model\Responses\OrderResponse.cs" />
     <Compile Include="Shared\Model\Responses\ResponseBase.cs" />

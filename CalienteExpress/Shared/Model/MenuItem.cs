@@ -13,5 +13,10 @@ namespace CalienteExpress.Shared.Model
         public float Price { get; set; }
 
         public List<MenuItemOption> Options { get; set; }
+
+        public MenuItem()
+        {
+            this.Options = new List<MenuItemOption>(); 
+        }
     }
 }

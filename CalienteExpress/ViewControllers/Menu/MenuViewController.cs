@@ -39,7 +39,9 @@ namespace CalienteExpress.IOS.ViewControllers.Menu
         {
             base.ViewDidLoad();
 
-            await this.controller.PopulateMenu(); 
+            await this.controller.PopulateMenu();
+
+            this.tableViewController.ReloadTable();
         }
 
         public override void ViewDidLayoutSubviews()
